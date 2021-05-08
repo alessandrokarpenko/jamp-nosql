@@ -1,0 +1,9 @@
+spring:
+  couchbase:
+    username: Administrator
+    password: password
+    connection-string: couchbase://localhost
+  data.couchbase:
+    bucket-name: users
+
+search.index.name: full-text-search
